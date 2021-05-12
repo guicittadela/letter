@@ -6,4 +6,4 @@ aproveitem para inserir botões que faz o link entre as cartas dos colegas, tent
 Exemplo: https://imgur.com/a/Qabqf80
 
 
-https://guicittadela.github.io/letter-to-elise/carta
+https://guicittadela.github.io/letter/carta
