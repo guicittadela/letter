@@ -1,0 +1,45 @@
+*{
+    margin: 15px;
+    padding: 5px;
+    box-sizing:border-box;
+    align-items: center;
+}
+body{
+    background:rgba(7, 6, 6, 0.87);
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: bisque;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.botao{
+    border: 1px solid;
+    border-color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 2px;
+    color: bisque;
+    cursor: pointer;     /* muda o cursor do mouse*/
+    transition: 0.6s ease all;   /* efeito de transição,*/
+    padding: 10px;
+    text-decoration: none;
+    background-color:rgba(7, 6, 6, 0.87) ;
+}
+
+.botao:hover{             /* cria um efeito que inverte as cores do botão*/
+    background-color: white;
+    color: black;}
+.contorno{
+    border: solid 1px; 
+    width: 600px; 
+    display: flex; 
+    flex-direction: column;
+    padding-top: 15px; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color:rgba(7, 6, 6, 0.952) ;
+    border-color: bisque;
+}
