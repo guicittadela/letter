@@ -1,6 +1,6 @@
 *{
     margin: 15px;
-    padding: 5px;
+    
     box-sizing:border-box;
     align-items: center;
 }
@@ -55,3 +55,22 @@ h3{
 h4{
     font-size: 32px;
 }
+
+div a {
+    
+    border: 1px solid;
+    border-color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    color: bisque;
+    cursor: pointer;     /* muda o cursor do mouse*/
+    transition: 0.6s ease all;   /* efeito de transição,*/
+    padding: 10px;
+    text-decoration: none;
+    background-color:rgba(7, 6, 6, 0.87) ;
+}
+
+.nav{
+    padding: 0px;
+}
+
